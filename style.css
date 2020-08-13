@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(top right,#dadbdb);
+}
+
+#heading{
+    margin-top: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#heading2{
+    margin-top: 5px;
+    color: green;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.container{
+        width: 350px;
+        background: black;
+        border-radius: 20px;
+}
+
+input[type="text"]{
+    height: 90px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid #e1e7ea;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(#bfbfbf);
+}
+
+#keyboard{
+    margin: 10px 25px 10px 25px;
+}
+
+input[type="button"], button{
+    width: 44px;
+    height: 37px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(#bfbfbf);  
+    cursor: pointer;
+    font-weight: 550;
+}
+
+input[type="button"]:hover, 
+button:hover{
+    background: #C0C0C0 ;
+}
+
+input[name=btnc],
+input[name="btnac"]{
+    background:rgb(255, 0, 0);
+    border: red;
+}
+
+input[name=btnc]:hover,
+input[name="btnac"]:hover{
+    background:rgb(188, 34, 34);
+}
+
+input[name="btnequal"]{
+    width: 100px; 
+    background-color: #ff4500; 
+    border: none;
+}
+
+input[name="btnequal"]:hover{
+    background:#ffA500;
+}
